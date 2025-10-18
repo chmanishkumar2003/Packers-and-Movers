@@ -1,56 +1,46 @@
 📦 Packers and Movers Management System
 🚀 Project Overview
 
-The Packers and Movers Management System is a web-based application designed to streamline and digitize the moving service industry.
-It helps customers book relocation services and track their requests, while admins can efficiently manage employees, vehicles, bookings, and payments.
+The Packers and Movers Management System is a web-based application built with TypeScript and MySQL, designed to streamline and digitize the moving service industry.
+It enables customers to easily book relocation services, while admins can manage employees, vehicles, bookings, and payments efficiently — all in one platform.
 
-🎯 Main Objectives:
+🎯 Main Objectives
 
 Automate the customer booking process.
 
 Enable real-time tracking of employees, vehicles, and services.
 
-Simplify invoice generation and payment processing.
+Simplify invoice generation and payment management.
 
-Provide reports for better business decision-making.
+Generate detailed reports for business insights and decisions.
 
-🔑 Relevance:
+🔑 Relevance
 
-This system removes manual inefficiencies in the moving business, reduces errors, and ensures transparency between customers and service providers.
+This system eliminates manual inefficiencies, minimizes errors, and ensures transparency between customers and service providers.
+By integrating all operations digitally, it improves reliability, speed, and customer satisfaction in the moving business.
+
+🌐 Live Demo
+
+🚀 Live Application: https://packers-and-movers-aaz1wccif.vercel.app/login
+
+You can visit the above link to explore the live system demo.
 
 🛠️ Installation Instructions
 1. Prerequisites
 
 Ensure you have the following installed:
 
-Node.js
- (v16 or above)
+Node.js (v16 or above)
 
-XAMPP
- (for MySQL & Apache server)
+MySQL Workbench (for managing the database)
 
-Git
- (optional, for version control)
+Git (optional, for version control)
 
-2. Backend Setup (XAMPP + MySQL)
+2. Frontend Setup (TypeScript + React)
 
-Start Apache and MySQL from the XAMPP Control Panel.
+Navigate to the project directory:
 
-Open phpMyAdmin
-.
-
-Create a new database:
-
-CREATE DATABASE packers_movers;
-
-
-Import the provided .sql file (located in /database folder of the project).
-
-3. Frontend Setup (React App)
-
-Navigate to the project folder:
-
-cd packers-movers-frontend
+cd project
 
 
 Install dependencies:
@@ -60,28 +50,31 @@ npm install
 
 Start the development server:
 
-npm start
+npm run dev
 
 
 The app will be available at:
 👉 http://localhost:3000
 
-4. Troubleshooting
+⚙️ Troubleshooting
 
-MySQL Shutdown Unexpectedly → Delete ib_logfile0, ib_logfile1 from xampp/mysql/data/, then restart.
+Database Connection Failed:
+Check that MySQL is running and credentials in .env are correct.
 
-Port Conflict (3306) → Change MySQL port in my.ini and update backend config.
+Port Conflict:
+If port 3306 is in use, update it in MySQL Workbench and backend config.
 
-React App Not Loading → Ensure backend API is running and .env file has the correct API URL.
+React App Not Loading:
+Make sure the backend server is running and API endpoints are reachable.
 
 📖 Usage Guidelines
 👤 For Customers:
 
-Register/Login to the system.
+Register or log in to the system.
 
-Book a moving service by entering details.
+Book a moving service by entering pickup and destination details.
 
-Track status of your booking.
+Track booking status in real time.
 
 Provide feedback after service completion.
 
@@ -89,31 +82,15 @@ Provide feedback after service completion.
 
 Manage customers, employees, and vehicles.
 
-Handle bookings and payments.
+Oversee bookings and process payments.
 
-Generate reports for revenue and performance.
-
-🔧 Commands:
-
-Start frontend:
-
-npm start
-
-
-Build for production:
-
-npm run build
-
-
-Run tests:
-
-npm test
+Generate performance and revenue reports.
 
 🤝 Contributing
 
 We welcome contributions to improve this project! 🎉
 
-🔹 Steps to Contribute:
+Steps to Contribute
 
 Fork this repository.
 
@@ -134,12 +111,20 @@ git push origin feature-branch
 
 Submit a Pull Request (PR).
 
-📌 Guidelines:
+Contribution Guidelines
 
-Follow consistent coding style (React + ES6).
+Follow consistent TypeScript + React coding conventions.
 
-Write clear commit messages.
+Write clear and meaningful commit messages.
 
-Report issues via GitHub Issues with detailed steps.
+Report issues via GitHub Issues with detailed reproduction steps.
 
 Ensure all tests pass before submitting a PR.
+
+📚 Tech Stack
+Layer	Technology Used
+Frontend	React + TypeScript
+Backend	Node.js / Express (TypeScript)
+Database	MySQL (via MySQL Workbench)
+Hosting	Vercel (Frontend)
+Version Control	Git & GitHub

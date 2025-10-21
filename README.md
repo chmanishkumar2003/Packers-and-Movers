@@ -21,7 +21,7 @@ By integrating all operations digitally, it improves reliability, speed, and cus
 
 🌐 Live Demo
 
-🚀 Live Application: https://packers-and-movers-aaz1wccif.vercel.app/login
+🚀 Live Application: https://packers-and-movers-aaz1wccif.vercel.app/
 
 You can visit the above link to explore the live system demo.
 

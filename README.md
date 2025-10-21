@@ -2,7 +2,7 @@
 🚀 Project Overview
 
 The Packers and Movers Management System is a web-based application built with TypeScript and MySQL, designed to streamline and digitize the moving service industry.
-It enables customers to easily book relocation services, while admins can manage employees, vehicles, bookings, and payments efficiently — all in one platform.Useful for those who shift according to there job.
+It enables customers to easily book relocation services, while admins can manage employees, vehicles, bookings, and payments efficiently — all in one platform.Us
 
 🎯 Main Objectives
 

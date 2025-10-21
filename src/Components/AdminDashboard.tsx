@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { dataService } from '../utils/dataService';
 import { Booking, Vehicle, User, Feedback } from '../types';
+import Bg from '../components/Bg.jpeg';
 import { 
   Users, 
   Package, 
